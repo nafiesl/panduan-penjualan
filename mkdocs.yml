@@ -1,0 +1,18 @@
+site_name: Panduan Aplikasi Toko Obat
+include_next_prev: false
+pages:
+- Home: index.md
+- Panduan Kasir: cashier.md
+- Panduan Admin:
+  - 'Transaksi': 'admin/transactions.md'
+  - 'Manajemen Produk': 'admin/products.md'
+  - 'Laporan': 'admin/reports.md'
+  - 'Pengaturan': 'admin/options.md'
+copyright: by nafies
+markdown_extensions:
+  - markdown.extensions.toc
+  - markdown.extensions.admonition
+  - markdown.extensions.smarty
+  - markdown.extensions.nl2br
+  - markdown.extensions.codehilite:
+      guess_lang: false
