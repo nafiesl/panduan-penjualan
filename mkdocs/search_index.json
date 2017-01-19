@@ -1,0 +1,319 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Panduan Aplikasi Toko Obat\n\n\nUntuk mulai menggunakan Aplikasi Toko Obat, silakan melakukan login:\n\n\nLogin Aplikasi\n\n\n\n\n\n\nBuka aplikasi web browser (Mozilla Firefox/Google Chrome)\n\n\nMasukkan URL pada \naddress bar\n : http://localhost untuk membuka halaman \nLogin\n\n\nMasukkan \nUsername\n dan \nPassword\n\n\nKlik tombol \nLogin\n\n\nJika Username dan Password cocok dengan User yang terdaftar pada sistem, otomatis masuk ke dalam halaman Aplikasi Toko Obat\n\n\n\n\nSilakan klik \nPanduan Kasir\n atau \nPanduan Admin\n.\n\n\nMengganti Password Pengguna\n\n\n\n\n\n\nSaat sedang login pada Aplkasi, klik link \nGanti Password\n di kanan atas.\n\n\nMasukkan \nPassword Lama\n\n\nMasukkan \nPassword Baru\n\n\nUlangi \nPassword Baru\n\n\nKlik tombol \nGanti Password", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#panduan-aplikasi-toko-obat", 
+            "text": "Untuk mulai menggunakan Aplikasi Toko Obat, silakan melakukan login:", 
+            "title": "Panduan Aplikasi Toko Obat"
+        }, 
+        {
+            "location": "/#login-aplikasi", 
+            "text": "Buka aplikasi web browser (Mozilla Firefox/Google Chrome)  Masukkan URL pada  address bar  : http://localhost untuk membuka halaman  Login  Masukkan  Username  dan  Password  Klik tombol  Login  Jika Username dan Password cocok dengan User yang terdaftar pada sistem, otomatis masuk ke dalam halaman Aplikasi Toko Obat   Silakan klik  Panduan Kasir  atau  Panduan Admin .", 
+            "title": "Login Aplikasi"
+        }, 
+        {
+            "location": "/#mengganti-password-pengguna", 
+            "text": "Saat sedang login pada Aplkasi, klik link  Ganti Password  di kanan atas.  Masukkan  Password Lama  Masukkan  Password Baru  Ulangi  Password Baru  Klik tombol  Ganti Password", 
+            "title": "Mengganti Password Pengguna"
+        }, 
+        {
+            "location": "/cashier/", 
+            "text": "Panduan Kasir\n\n\nKasir\n adalah tipe pengguna/user yang dapat melakukan aktifitas berikut:\n\n\n\n\nMembuat/Input Transaksi\n\n\nKeranjang\n\n\nMelihat Detail Transaksi\n\n\nMencetak Nota/Faktur\n\n\nMelihat Daftar Transaksi Hari ini\n\n\nMencari Nota/Faktur\n\n\nMutasi Stok\n\n\n\n\nMembuat/Input Transaksi\n\n\nYaitu melakukan input transaksi penjualan produk kepada customer dan menyimpan transaksi sebagai draft (simpan sementara).\n\n\n\n\nMencari dan Input Produk ke Keranjang\n\n\n\n\n\n\nKlik pada menu \nInput Transaksi\n\n\nPada Kolom \nCari Produk\n, Ketik nama Produk minimal 3 huruf, muncul daftar produk\n\n\nPilih produk sesuai satuannya, isikan \nJumlah\n yang akan dimasukkan ke \nKeranjang\n (Catatan: Perhatikan Stok Produk yang bersangkutan)\n\n\nKlik tombol \nTambah\n\n\nProduk tersebut akan masuk ke \nKeranjang\n\n\nUlangi langkah ke 2 s/d ke 4 untuk menambahkan produk lainnya\n\n\nKlik tombol \nRefresh\n untuk menghilangkan hasil pencarian\n\n\n\n\nKeranjang\n\n\nKeranjang\n adalah daftar produk yang akan dibeli oleh pelanggan. Pada keranjang, kasir dapat menambahkan item (produk), menghapus produk, menambahkan/mengurangi jumlah, dan memberikan diskon per item.\n\n\n\n\nMenggunakan keranjang\n\n\n\n\nNo. Faktur\n adalah Nomor Transaksi yang akan dibuat, dengan format tahun-bulan-no.urut (yymmxxxx)\n\n\nTanggal\n adalah tanggal hari ini yang merupakan tanggal transaksi diinput\n\n\nUbah kolom \nJumlah\n pada kolom yang diinginkan, lalu tekan \nEnter\n, \nSubtotal\n item otomatis akan berubah (Harga Satuan x Jumlah)\n\n\nIsikan \nDiskon per Item\n (jika ada), lalu tekan \nEnter\n, diskon akan terakumulasi secara otomatis pada kolom \nTotal Diskon\n (diskon per item x jumlah)\n\n\nKolom \nHapus\n untuk menghapus item yang batal/tidak jadi. Klik tanda silang \n(x)\n pada kolom Hapus -\n \nOK\n, maka item akan terhapus dari keranjang.\n\n\nTombol \nUpdate Harga\n digunakan untuk mengupdate harga yang ada pada keranjang (jika admin telah mengubah harga produk tersebut)\n\n\nTotal\n ada adalah jumlah total belanja pelanggan sebelum dipotong Diskon\n\n\nTotal yang harus dibayar\n adalah jumlah total belanja pelanggan setelah dipotong diskon\n\n\n\n\n\n\nCatatan\n\n\n\n\nBaris item pada keranjang akan \nberwarna merah\n jika ada masalah \nStok\n produk\n\n\nJika masih ada baris item yang berwarna merah, transaksi tidak dapat dilanjutkan/disimpan\n\n\n\n\n\n\nMelanjutkan Proses Transaksi\n\n\nJika sudah selesai mengisi keranjang sesuai pesanan Pelanggan\n\n\n\n\n\n\nIsikan \nNama Pelanggan\n, \nNo. Telp\n, dan \nJumlah Bayar\n\n\nJumlah Bayar\n diisi :\n\n\nMinimal sejumlah \nTotal yang harus dibayar\n\n\nMaksimal sejumlah \nTotal yang harus dibayar + 100.000\n\n\n\n\n\n\nIsikan \nCatatan\n transaksi jika diperlukan\n\n\nKlik \nLanjutkan\n\n\nPada halaman \nKonfirmasi Transaksi\n, periksa kembali daftar produk, satuan, harga, jumlah item, nama/telp Pelanggan\n\n\nKlik tombol \nKembali\n jika ingin ada perbaikan pada Keranjang atau Data Transaksi\n\n\nKlik tombol \nOK, Simpan Transaksi\n untuk menyimpan transaksi\n\n\n\n\n\n\nDetail Transaksi\n\n\nHalaman informasi detail sebuah transaksi pembelian Pelanggan\n\n\n\n\nKeterangan Gambar:\n\n\n\n\nData Transaksi\n\n\nDaftar Belanja\n\n\nTombol \nCetak Nota\n untuk mencetak nota atau faktur belanja Pelanggan\n\n\n\n\n\n\nDraft Transaksi\n\n\nAdalah transaksi yang disimpan untuk sementara\n\n\n\n\nMenyimpan Transaksi ke Dalam Draft\n\n\n\n\nInput transaksi baru\n\n\nIsi keranjang\n\n\nKlik tombol \nSimpan Draft\n\n\nTransaksi akan masuk ke dalam daftar \nDraft Transaksi\n\n\n\n\n\n\nEdit Draft Transaksi\n\n\n\n\nDiakses melalui \nTransaksi\n \n \nDraft Transaksi\n\n\nMuncul daftar transaksi yang telah disimpan sebagai draft\n\n\nKlik tombol \nEdit\n untuk melanjutkan transaksi yang tersimpan\n\n\nTombol \nEdit\n akan muncul sesuai dengan pemilik transaksi (User yang membuatnya)\n\n\nLakukan pencarian Produk, pengisian Keranjang, Nama Pelanggan, Telp, dan Jumlah Bayar\n\n\nTekan tombol \nUpdate Draft\n untuk menyimpan (masih sebagai draft)\n\n\nTekan tombol \nLanjutkan\n jika ingin melanjutkan dan menyelesaikan transaksi\n\n\nTekan tombol \nHapus Draft\n untuk membatalkan draft transaksi\n\n\n\n\n\n\nDaftar Transaksi Hari Ini\n\n\nAdalah menu/halaman untuk melihat daftar transaksi/nota yang dibuat pada hari ini.\n\n\n\n\nMencari Daftar Transaksi Hari Ini\n\n\n\n\nKlik menu \nTransaksi\n \n \nTransaksi Hari Ini\n\n\nKetik bagian dari \nNomor Nota/Faktur\n atau bagian dari \nNama Pelanggan\n, tekan \nEnter\n\n\nKlik \nDetail\n pada transaksi yang diinginkan, maka akan terlihat detail/rincian transaksinya\n\n\nCetak Nota\n apabila ingin mencetak nota\n\n\n\n\nMencari Nota/Faktur\n\n\nMencari nota sesuai nomor faktur yang telah dibuat untuk melihat detail transaksi dan mencetak ulang nota.\n\n\n\n\nKlik menu \nCari Nota\n\n\nIsi nomor faktur atau nama pelanggan untuk mencari nota, klik \nCari\n\n\nKlik \nDetail\n untuk melihat rincian/detail nota\n\n\nKlik \nCetak Nota\n untuk mencetak nota\n\n\n\n\n\n\nMutasi Stok\n\n\nYaitu untuk melakukan pemindahan stok dari satuan besar ke satuan kecil.\n\nMisalnya:\n\n\n\n\nProduk memiliki satuan \nDus\n dan \nBotol\n\n\nSatu Dus = 10 Botol\n\n\nDi dalam stok ada \n7 Dus\n dan \n1 Botol\n\n\nKemudian 1 Dus akan dibuka menjadi 10 Botol\n\n\nStok berubah menjadi: \n6 Dus\n dan \n11 Botol\n\n\n\n\nCara Memutasi Stok\n\n\n\n\n\n\nBuka Menu \nMutasi Stok\n\n\nKetik nama produk yang ingin dimutasi, klik \nCari\n\n\nPada kolom \nStok\n akan terlihat jumlah Stok setiap Satuan\n\n\nKlik tombol \nBuat Mutasi\n pada produk yang akan dimutasikan\n\n\n\n\nIsi kolom \nMutasi Produk\n beserta jumlah mutasinya\n\n\nKlik \nMutasikan\n dan jumlah Stok Satuan akan berubah setelah dimutasi", 
+            "title": "Panduan Kasir"
+        }, 
+        {
+            "location": "/cashier/#panduan-kasir", 
+            "text": "Kasir  adalah tipe pengguna/user yang dapat melakukan aktifitas berikut:   Membuat/Input Transaksi  Keranjang  Melihat Detail Transaksi  Mencetak Nota/Faktur  Melihat Daftar Transaksi Hari ini  Mencari Nota/Faktur  Mutasi Stok", 
+            "title": "Panduan Kasir"
+        }, 
+        {
+            "location": "/cashier/#membuatinput-transaksi", 
+            "text": "Yaitu melakukan input transaksi penjualan produk kepada customer dan menyimpan transaksi sebagai draft (simpan sementara).", 
+            "title": "Membuat/Input Transaksi"
+        }, 
+        {
+            "location": "/cashier/#mencari-dan-input-produk-ke-keranjang", 
+            "text": "Klik pada menu  Input Transaksi  Pada Kolom  Cari Produk , Ketik nama Produk minimal 3 huruf, muncul daftar produk  Pilih produk sesuai satuannya, isikan  Jumlah  yang akan dimasukkan ke  Keranjang  (Catatan: Perhatikan Stok Produk yang bersangkutan)  Klik tombol  Tambah  Produk tersebut akan masuk ke  Keranjang  Ulangi langkah ke 2 s/d ke 4 untuk menambahkan produk lainnya  Klik tombol  Refresh  untuk menghilangkan hasil pencarian", 
+            "title": "Mencari dan Input Produk ke Keranjang"
+        }, 
+        {
+            "location": "/cashier/#keranjang", 
+            "text": "Keranjang  adalah daftar produk yang akan dibeli oleh pelanggan. Pada keranjang, kasir dapat menambahkan item (produk), menghapus produk, menambahkan/mengurangi jumlah, dan memberikan diskon per item.", 
+            "title": "Keranjang"
+        }, 
+        {
+            "location": "/cashier/#menggunakan-keranjang", 
+            "text": "No. Faktur  adalah Nomor Transaksi yang akan dibuat, dengan format tahun-bulan-no.urut (yymmxxxx)  Tanggal  adalah tanggal hari ini yang merupakan tanggal transaksi diinput  Ubah kolom  Jumlah  pada kolom yang diinginkan, lalu tekan  Enter ,  Subtotal  item otomatis akan berubah (Harga Satuan x Jumlah)  Isikan  Diskon per Item  (jika ada), lalu tekan  Enter , diskon akan terakumulasi secara otomatis pada kolom  Total Diskon  (diskon per item x jumlah)  Kolom  Hapus  untuk menghapus item yang batal/tidak jadi. Klik tanda silang  (x)  pada kolom Hapus -   OK , maka item akan terhapus dari keranjang.  Tombol  Update Harga  digunakan untuk mengupdate harga yang ada pada keranjang (jika admin telah mengubah harga produk tersebut)  Total  ada adalah jumlah total belanja pelanggan sebelum dipotong Diskon  Total yang harus dibayar  adalah jumlah total belanja pelanggan setelah dipotong diskon    Catatan   Baris item pada keranjang akan  berwarna merah  jika ada masalah  Stok  produk  Jika masih ada baris item yang berwarna merah, transaksi tidak dapat dilanjutkan/disimpan", 
+            "title": "Menggunakan keranjang"
+        }, 
+        {
+            "location": "/cashier/#melanjutkan-proses-transaksi", 
+            "text": "Jika sudah selesai mengisi keranjang sesuai pesanan Pelanggan    Isikan  Nama Pelanggan ,  No. Telp , dan  Jumlah Bayar  Jumlah Bayar  diisi :  Minimal sejumlah  Total yang harus dibayar  Maksimal sejumlah  Total yang harus dibayar + 100.000    Isikan  Catatan  transaksi jika diperlukan  Klik  Lanjutkan  Pada halaman  Konfirmasi Transaksi , periksa kembali daftar produk, satuan, harga, jumlah item, nama/telp Pelanggan  Klik tombol  Kembali  jika ingin ada perbaikan pada Keranjang atau Data Transaksi  Klik tombol  OK, Simpan Transaksi  untuk menyimpan transaksi", 
+            "title": "Melanjutkan Proses Transaksi"
+        }, 
+        {
+            "location": "/cashier/#detail-transaksi", 
+            "text": "Halaman informasi detail sebuah transaksi pembelian Pelanggan   Keterangan Gambar:   Data Transaksi  Daftar Belanja  Tombol  Cetak Nota  untuk mencetak nota atau faktur belanja Pelanggan", 
+            "title": "Detail Transaksi"
+        }, 
+        {
+            "location": "/cashier/#draft-transaksi", 
+            "text": "Adalah transaksi yang disimpan untuk sementara", 
+            "title": "Draft Transaksi"
+        }, 
+        {
+            "location": "/cashier/#menyimpan-transaksi-ke-dalam-draft", 
+            "text": "Input transaksi baru  Isi keranjang  Klik tombol  Simpan Draft  Transaksi akan masuk ke dalam daftar  Draft Transaksi", 
+            "title": "Menyimpan Transaksi ke Dalam Draft"
+        }, 
+        {
+            "location": "/cashier/#edit-draft-transaksi", 
+            "text": "Diakses melalui  Transaksi     Draft Transaksi  Muncul daftar transaksi yang telah disimpan sebagai draft  Klik tombol  Edit  untuk melanjutkan transaksi yang tersimpan  Tombol  Edit  akan muncul sesuai dengan pemilik transaksi (User yang membuatnya)  Lakukan pencarian Produk, pengisian Keranjang, Nama Pelanggan, Telp, dan Jumlah Bayar  Tekan tombol  Update Draft  untuk menyimpan (masih sebagai draft)  Tekan tombol  Lanjutkan  jika ingin melanjutkan dan menyelesaikan transaksi  Tekan tombol  Hapus Draft  untuk membatalkan draft transaksi", 
+            "title": "Edit Draft Transaksi"
+        }, 
+        {
+            "location": "/cashier/#daftar-transaksi-hari-ini", 
+            "text": "Adalah menu/halaman untuk melihat daftar transaksi/nota yang dibuat pada hari ini.", 
+            "title": "Daftar Transaksi Hari Ini"
+        }, 
+        {
+            "location": "/cashier/#mencari-daftar-transaksi-hari-ini", 
+            "text": "Klik menu  Transaksi     Transaksi Hari Ini  Ketik bagian dari  Nomor Nota/Faktur  atau bagian dari  Nama Pelanggan , tekan  Enter  Klik  Detail  pada transaksi yang diinginkan, maka akan terlihat detail/rincian transaksinya  Cetak Nota  apabila ingin mencetak nota", 
+            "title": "Mencari Daftar Transaksi Hari Ini"
+        }, 
+        {
+            "location": "/cashier/#mencari-notafaktur", 
+            "text": "Mencari nota sesuai nomor faktur yang telah dibuat untuk melihat detail transaksi dan mencetak ulang nota.   Klik menu  Cari Nota  Isi nomor faktur atau nama pelanggan untuk mencari nota, klik  Cari  Klik  Detail  untuk melihat rincian/detail nota  Klik  Cetak Nota  untuk mencetak nota", 
+            "title": "Mencari Nota/Faktur"
+        }, 
+        {
+            "location": "/cashier/#mutasi-stok", 
+            "text": "Yaitu untuk melakukan pemindahan stok dari satuan besar ke satuan kecil. \nMisalnya:   Produk memiliki satuan  Dus  dan  Botol  Satu Dus = 10 Botol  Di dalam stok ada  7 Dus  dan  1 Botol  Kemudian 1 Dus akan dibuka menjadi 10 Botol  Stok berubah menjadi:  6 Dus  dan  11 Botol", 
+            "title": "Mutasi Stok"
+        }, 
+        {
+            "location": "/cashier/#cara-memutasi-stok", 
+            "text": "Buka Menu  Mutasi Stok  Ketik nama produk yang ingin dimutasi, klik  Cari  Pada kolom  Stok  akan terlihat jumlah Stok setiap Satuan  Klik tombol  Buat Mutasi  pada produk yang akan dimutasikan   Isi kolom  Mutasi Produk  beserta jumlah mutasinya  Klik  Mutasikan  dan jumlah Stok Satuan akan berubah setelah dimutasi", 
+            "title": "Cara Memutasi Stok"
+        }, 
+        {
+            "location": "/admin/transactions/", 
+            "text": "Panduan Transaksi Admin\n\n\nDaftar Transaksi Hari Ini\n\n\nAdalah menu/halaman untuk melihat daftar transaksi/nota yang dibuat pada hari ini.\n\nPerbedaaan antara halaman \nDaftar Transaksi Hari Ini\n pada akun \nKasir\n dan pada akun \nAdmin\n :\n\n\n\n\nTerdapat kolom \nModal\n dan \nProfit\n\n\nPada bagian total di bawah, terdapat kolom \nTotal Modal\n dan \nTotal Profit\n\n\n\n\n\n\nMencari Daftar Transaksi Hari Ini\n\n\n\n\nKlik menu \nTransaksi\n \n \nTransaksi Hari Ini\n\n\nKetik bagian dari \nNomor Nota/Faktur\n atau bagian dari \nNama Pelanggan\n, tekan \nEnter\n\n\nKlik \nDetail\n pada transaksi yang diinginkan, maka akan terlihat detail/rincian transaksinya\n\n\nCetak Nota\n apabila ingin mencetak nota\n\n\n\n\nMembuat/Input Transaksi\n\n\nUntuk membuat/input transaksi baru, dapat mengacu pada Panduan Kasir bagian \nMembuat/Input Transaksi\n\n\nDetail Transaksi\n\n\nHalaman \nDetail Transaksi\n pada akun \nAdmin\n terdapat perbedaan dari akun \nKasir\n, yaitu pada bagian \nNilai Transaksi\n:\n\n\n\n\nTotal\n\n\nModal\n\n\nProfit\n\n\nTotal Sebelum Diskon\n\n\nTotal Diskon\n\n\nTotal Setelah Diskon\n\n\nPembayara Tunai\n\n\nKembali\n\n\n\n\n\n\nDraft Transaksi\n\n\nUntuk membuat/edit \nDraft Transaksi\n, dapat mengacu pada Panduan Kasir bagian \nDraft Transaksi\n\n\nMencari Nota/Faktur\n\n\nUntuk \nMencari Nota/Faktur\n, dapat mengacu pada Panduan Kasir bagian \nMencari Nota/Faktur", 
+            "title": "Transaksi"
+        }, 
+        {
+            "location": "/admin/transactions/#panduan-transaksi-admin", 
+            "text": "", 
+            "title": "Panduan Transaksi Admin"
+        }, 
+        {
+            "location": "/admin/transactions/#daftar-transaksi-hari-ini", 
+            "text": "Adalah menu/halaman untuk melihat daftar transaksi/nota yang dibuat pada hari ini. \nPerbedaaan antara halaman  Daftar Transaksi Hari Ini  pada akun  Kasir  dan pada akun  Admin  :   Terdapat kolom  Modal  dan  Profit  Pada bagian total di bawah, terdapat kolom  Total Modal  dan  Total Profit", 
+            "title": "Daftar Transaksi Hari Ini"
+        }, 
+        {
+            "location": "/admin/transactions/#mencari-daftar-transaksi-hari-ini", 
+            "text": "Klik menu  Transaksi     Transaksi Hari Ini  Ketik bagian dari  Nomor Nota/Faktur  atau bagian dari  Nama Pelanggan , tekan  Enter  Klik  Detail  pada transaksi yang diinginkan, maka akan terlihat detail/rincian transaksinya  Cetak Nota  apabila ingin mencetak nota", 
+            "title": "Mencari Daftar Transaksi Hari Ini"
+        }, 
+        {
+            "location": "/admin/transactions/#membuatinput-transaksi", 
+            "text": "Untuk membuat/input transaksi baru, dapat mengacu pada Panduan Kasir bagian  Membuat/Input Transaksi", 
+            "title": "Membuat/Input Transaksi"
+        }, 
+        {
+            "location": "/admin/transactions/#detail-transaksi", 
+            "text": "Halaman  Detail Transaksi  pada akun  Admin  terdapat perbedaan dari akun  Kasir , yaitu pada bagian  Nilai Transaksi :   Total  Modal  Profit  Total Sebelum Diskon  Total Diskon  Total Setelah Diskon  Pembayara Tunai  Kembali", 
+            "title": "Detail Transaksi"
+        }, 
+        {
+            "location": "/admin/transactions/#draft-transaksi", 
+            "text": "Untuk membuat/edit  Draft Transaksi , dapat mengacu pada Panduan Kasir bagian  Draft Transaksi", 
+            "title": "Draft Transaksi"
+        }, 
+        {
+            "location": "/admin/transactions/#mencari-notafaktur", 
+            "text": "Untuk  Mencari Nota/Faktur , dapat mengacu pada Panduan Kasir bagian  Mencari Nota/Faktur", 
+            "title": "Mencari Nota/Faktur"
+        }, 
+        {
+            "location": "/admin/products/", 
+            "text": "Manajemen Produk\n\n\nAdalah menu/fitur untuk melakukan pengaturan Produk yaitu:\n\n\n\n\nDaftar dan Pencarian Produk\n\n\nInput Produk Baru\n\n\nLihat Detail Produk\n\n\nEdit Produk\n\n\nCetak Daftar Harga\n\n\n\n\nDaftar dan Pencarian Produk\n\n\nAdalah Daftar Produk yang terdata pada sistem.\n\nAkses melalui menu \nProduk\n \n \nCari Produk\n\n\n\n\nKeterangan Gambar:\n\n\n\n\nTombol \nInput Produk Baru\n untuk menambah Produk\n\n\nKolom \nPencarian Produk\n\n\nDaftar Produk\n\n\nTombol \nDetail Produk\n untuk melihat detail produk\n\n\nTombol \nx\n untuk menghapus produk (\ntombol ini muncul jika stok produk kosong\n)\n\n\nDaftar Halaman adalah link menuju daftar produk pada halaman berikutnya (setiap halaman terdapat 25 daftar Produk)\n\n\n\n\nInput Produk\n\n\n\n\nKlik tombol \nInput Produk Baru\n\n\nIsikan \nNama Produk\n, Deskripsi, pilih \nSatuan Produk\n, jumlah \nStok\n, Harga \nModal\n, dan \nHarga Jual\n\n\nKlik tombol \nInput Produk\n\n\n\n\n\n\nDetail Produk\n\n\n\nPada halaman ini, \nAdmin\n dapat melakukan:\n\n\n\n\nTambah Satuan Produk\n\n\nEdit Stok dan Harga\n\n\nKonversi Satuan Produk\n\n\nMutasi Stok\n\n\nEdit Nama dan Deskripsi Produk\n\n\n\n\nTambah Satuan\n\n\n\n\nLihat bagian \nKonversi Satuan\n\n\nPada \nTambah Satuan Baru\n, pilih Satuan yang ingin ditambahkan\n\n\nKlik tombol \nTambah\n\n\n\n\n\n\nEdit Stok dan Harga\n\n\n\n\nLihat bagian \nStok dan Harga\n\n\nUbah \nStok\n sesuai Satuan yang diinginkan\n\n\nUbah \nHarga Modal\n dan \nHarga Jual\n\n\nKlik tombol \nUpdate\n untuk menyimpan perubahan\n\n\n\n\n\n\nKonversi Satuan\n\n\nAdalah fungsi untuk mengatur Satuan besar dan kecil produk dengan jumlah satuannya.\n\nMisalnya:\n\n\n\n\nProduk memiliki satuan \nDus\n dan \nBotol\n\n\nSatu Dus = 10 Botol\n\n\n\n\nPengaturan Konversi Satuan:\n\n\n\n\nIsikan \nAngka\n konversi dan pilih \nSatuan Kecil\n-nya\n\n\nKlik tombol \nUpdate\n\n\n\n\n\n\nMutasi Stok\n\n\nMirip seperti pengoperasian \nMutasi Stok\n pada \nKasir\n, untuk \nAdmin\n mutasi stok dapat dilakukan pada halaman \nDetail Produk\n :\n\n\n\n\nPada bagian \nMutasi Stok\n\n\nPilih \nDari Satuan\n\n\nIsikan angka \nSejumlah\n\n\nPilih \nKe Satuan\n\n\nKlik tombol \nMutasikan\n\n\n\n\n\n\n\n\nEdit dan Hapus Produk\n\n\nUntuk mengubah \nNama\n dan \nDeskripsi\n produk:\n\n\n\n\nPada halaman \nDetail Produk\n, klik tombol \nEdit Produk\n\n\nUbah \nNama\n dan \nDeskripsi\n produk\n\n\nKlik tombol \nUpdate Data Produk\n untuk menyimpan perubahan\n\n\nTombol \nHapus Produk ini\n untuk menghapus Produk dari sistem\n\n\n\n\n\n\n\n\nCatatan:\n\n\nPenghapusan Produk dari sistem dapat dilakukan jika \nStok\n produk telah kosong.\n\n\n\n\n\n\nCetak Daftar Harga\n\n\nUntuk mencetak daftar harga produk terbaru\n\n\n\n\nBuka dengan menu \nProduk\n \n \nCetak Daftar Harga\n\n\nKlik tombol \nCetak\n untuk membuka kotak dialog Cetak/Print", 
+            "title": "Manajemen Produk"
+        }, 
+        {
+            "location": "/admin/products/#manajemen-produk", 
+            "text": "Adalah menu/fitur untuk melakukan pengaturan Produk yaitu:   Daftar dan Pencarian Produk  Input Produk Baru  Lihat Detail Produk  Edit Produk  Cetak Daftar Harga", 
+            "title": "Manajemen Produk"
+        }, 
+        {
+            "location": "/admin/products/#daftar-dan-pencarian-produk", 
+            "text": "Adalah Daftar Produk yang terdata pada sistem. \nAkses melalui menu  Produk     Cari Produk   Keterangan Gambar:   Tombol  Input Produk Baru  untuk menambah Produk  Kolom  Pencarian Produk  Daftar Produk  Tombol  Detail Produk  untuk melihat detail produk  Tombol  x  untuk menghapus produk ( tombol ini muncul jika stok produk kosong )  Daftar Halaman adalah link menuju daftar produk pada halaman berikutnya (setiap halaman terdapat 25 daftar Produk)", 
+            "title": "Daftar dan Pencarian Produk"
+        }, 
+        {
+            "location": "/admin/products/#input-produk", 
+            "text": "Klik tombol  Input Produk Baru  Isikan  Nama Produk , Deskripsi, pilih  Satuan Produk , jumlah  Stok , Harga  Modal , dan  Harga Jual  Klik tombol  Input Produk", 
+            "title": "Input Produk"
+        }, 
+        {
+            "location": "/admin/products/#detail-produk", 
+            "text": "Pada halaman ini,  Admin  dapat melakukan:   Tambah Satuan Produk  Edit Stok dan Harga  Konversi Satuan Produk  Mutasi Stok  Edit Nama dan Deskripsi Produk", 
+            "title": "Detail Produk"
+        }, 
+        {
+            "location": "/admin/products/#tambah-satuan", 
+            "text": "Lihat bagian  Konversi Satuan  Pada  Tambah Satuan Baru , pilih Satuan yang ingin ditambahkan  Klik tombol  Tambah", 
+            "title": "Tambah Satuan"
+        }, 
+        {
+            "location": "/admin/products/#edit-stok-dan-harga", 
+            "text": "Lihat bagian  Stok dan Harga  Ubah  Stok  sesuai Satuan yang diinginkan  Ubah  Harga Modal  dan  Harga Jual  Klik tombol  Update  untuk menyimpan perubahan", 
+            "title": "Edit Stok dan Harga"
+        }, 
+        {
+            "location": "/admin/products/#konversi-satuan", 
+            "text": "Adalah fungsi untuk mengatur Satuan besar dan kecil produk dengan jumlah satuannya. \nMisalnya:   Produk memiliki satuan  Dus  dan  Botol  Satu Dus = 10 Botol   Pengaturan Konversi Satuan:   Isikan  Angka  konversi dan pilih  Satuan Kecil -nya  Klik tombol  Update", 
+            "title": "Konversi Satuan"
+        }, 
+        {
+            "location": "/admin/products/#mutasi-stok", 
+            "text": "Mirip seperti pengoperasian  Mutasi Stok  pada  Kasir , untuk  Admin  mutasi stok dapat dilakukan pada halaman  Detail Produk  :   Pada bagian  Mutasi Stok  Pilih  Dari Satuan  Isikan angka  Sejumlah  Pilih  Ke Satuan  Klik tombol  Mutasikan", 
+            "title": "Mutasi Stok"
+        }, 
+        {
+            "location": "/admin/products/#edit-dan-hapus-produk", 
+            "text": "Untuk mengubah  Nama  dan  Deskripsi  produk:   Pada halaman  Detail Produk , klik tombol  Edit Produk  Ubah  Nama  dan  Deskripsi  produk  Klik tombol  Update Data Produk  untuk menyimpan perubahan  Tombol  Hapus Produk ini  untuk menghapus Produk dari sistem     Catatan:  Penghapusan Produk dari sistem dapat dilakukan jika  Stok  produk telah kosong.", 
+            "title": "Edit dan Hapus Produk"
+        }, 
+        {
+            "location": "/admin/products/#cetak-daftar-harga", 
+            "text": "Untuk mencetak daftar harga produk terbaru   Buka dengan menu  Produk     Cetak Daftar Harga  Klik tombol  Cetak  untuk membuka kotak dialog Cetak/Print", 
+            "title": "Cetak Daftar Harga"
+        }, 
+        {
+            "location": "/admin/reports/", 
+            "text": "Laporan\n\n\nLaporan\n pada aplikasi ini adalah rangkuman keuntungan (laba) yang dihitung dari total penjualan - total modal per periode (harian, bulanan, tahunan)\n\n\nLaporan Harian\n\n\nAdalah laporan daftar transaksi/faktur/nota yang dibuat pada hari/tanggal yang dipilih\n\n\n\n\nPilih tanggal untuk melihat laporan harian\n\n\nKlik tombol \nLihat Laporan\n\n\nKlik tombol \nHari Ini\n untuk melihat laporan hari ini (tanggal berjalan)\n\n\nKlik Tombol \nLihat Bulanan\n untuk melihat laporan bulanan dari tanggal yang terpilih\n\n\n\n\n\n\nLaporan Bulanan\n\n\nAdalah laporan total transaksi perhari selama satu bulan (pada bulan terpilih)\n\n\n\n\nTerdapat laporan \nGrafik Laba\n sesuai tanggal\n\n\nTerdapat rincian laporan total harian pada bulan tersebut\n\n\nPada kolom Pilihan klik tombol \nLihat Harian\n untuk melihat laporan harian pada tanggal tersebut\n\n\n\n\n\n\nLaporan Tahunan\n\n\nAdalah laporan total transaksi perbulan selama satu tahun (pada tahun terpilih)\n\n\n\n\nTerdapat laporan \nGrafik Laba\n sesuai bulan\n\n\nTerdapat rincian laporan total bulanan pada tahun tersebut\n\n\nPada kolom Pilihan klik tombol \nLihat Bulanan\n untuk melihat laporan bulanan pada tanggal tersebut\n\n\n\n\n\n\nLaporan Aset\n\n\nAdalah laporan total aset produk yang saat ini dimiliki oleh Toko\n\n\n\n\nProduk\n adalah jumlah produk yang terdaftar pada sistem saat ini\n\n\nAset\n adalah \nHarga Modal\n x \nJumlah Stok\n untuk keseluruhan produk\n\n\nOmzet\n adalah \nHarga Jual\n x \nJumlah Stok\n untuk keseluruhan produk\n\n\nProfit\n adalah potensi profit/laba yang akan didapatkan jika seluruh produk habis terjual (\nOmzet\n - \nAset\n)", 
+            "title": "Laporan"
+        }, 
+        {
+            "location": "/admin/reports/#laporan", 
+            "text": "Laporan  pada aplikasi ini adalah rangkuman keuntungan (laba) yang dihitung dari total penjualan - total modal per periode (harian, bulanan, tahunan)", 
+            "title": "Laporan"
+        }, 
+        {
+            "location": "/admin/reports/#laporan-harian", 
+            "text": "Adalah laporan daftar transaksi/faktur/nota yang dibuat pada hari/tanggal yang dipilih   Pilih tanggal untuk melihat laporan harian  Klik tombol  Lihat Laporan  Klik tombol  Hari Ini  untuk melihat laporan hari ini (tanggal berjalan)  Klik Tombol  Lihat Bulanan  untuk melihat laporan bulanan dari tanggal yang terpilih", 
+            "title": "Laporan Harian"
+        }, 
+        {
+            "location": "/admin/reports/#laporan-bulanan", 
+            "text": "Adalah laporan total transaksi perhari selama satu bulan (pada bulan terpilih)   Terdapat laporan  Grafik Laba  sesuai tanggal  Terdapat rincian laporan total harian pada bulan tersebut  Pada kolom Pilihan klik tombol  Lihat Harian  untuk melihat laporan harian pada tanggal tersebut", 
+            "title": "Laporan Bulanan"
+        }, 
+        {
+            "location": "/admin/reports/#laporan-tahunan", 
+            "text": "Adalah laporan total transaksi perbulan selama satu tahun (pada tahun terpilih)   Terdapat laporan  Grafik Laba  sesuai bulan  Terdapat rincian laporan total bulanan pada tahun tersebut  Pada kolom Pilihan klik tombol  Lihat Bulanan  untuk melihat laporan bulanan pada tanggal tersebut", 
+            "title": "Laporan Tahunan"
+        }, 
+        {
+            "location": "/admin/reports/#laporan-aset", 
+            "text": "Adalah laporan total aset produk yang saat ini dimiliki oleh Toko   Produk  adalah jumlah produk yang terdaftar pada sistem saat ini  Aset  adalah  Harga Modal  x  Jumlah Stok  untuk keseluruhan produk  Omzet  adalah  Harga Jual  x  Jumlah Stok  untuk keseluruhan produk  Profit  adalah potensi profit/laba yang akan didapatkan jika seluruh produk habis terjual ( Omzet  -  Aset )", 
+            "title": "Laporan Aset"
+        }, 
+        {
+            "location": "/admin/options/", 
+            "text": "Pengaturan\n\n\nDaftar User\n\n\nUntuk mengatur User/Pengguna yang menggunakan aplikasi.\n\n\nBuka Daftar User melalui menu \nPengaturan\n \n \nDaftar User\n\n\n\n\nTipe User/Grup terbagi dua:\n\n\n\n\nAdmin\n untuk melakukan aktifitas:\n\n\nInput Transaksi\n\n\nMencari dan cetak Nota Transaksi\n\n\nManajemen Data Produk, Stok Produk dan Satuan Produk\n\n\nMutasi Stok Produk\n\n\nCetak Daftar Harga Produk\n\n\nMelihat laporan penjualan (Modal, Omzet dan Laba)\n\n\nMengatur User/Pengguna yang menggunakan aplikasi\n\n\nManajemen Backup Database Sistem\n\n\n\n\n\n\nKasir\n untuk melakukan aktifitas:\n\n\nInput Transaksi\n\n\nMencari dan cetak Nota Transaksi\n\n\nMutasi Stok Produk\n\n\n\n\n\n\n\n\nInput User\n\n\n\n\nPada halaman Daftar User, klik tombol \nInput User\n\n\nIsikan \nNama\n, \nUsername\n, Pilih \nGrup\n, Isikan \nPassword\n dan \nUlangi Password\n\n\nKlik tombol \nBuat User\n\n\n\n\nEdit User\n\n\n\n\nPada halaman Daftar User, pilih User yang akan diedit, klik tombol \nEdit\n\n\nUbah \nNama\n, \nUsername\n, \nGrup\n, atau \nPassword\n sesuai kebutuhan\n\n\nKlik tombol \nUpdate User\n untuk menyimpan perubahan\n\n\n\n\n\n\nHapus User\n\n\n\n\nPada halaman Daftar User, pilih User yang akan diedit, klik tombol \nEdit\n\n\nKlik tombol \nHapus User ini\n\n\nKlik OK untuk menghapus User\n\n\n\n\nSatuan Produk\n\n\nAdalah pengaturan untuk satuan-satuan produk yang digunakan dalam sistem\n\n\nDaftar Satuan\n\n\nAkses melalui menu \nPengaturan\n \n \nDaftar Satuan\n\n\n\n\nTambah Satuan\n\n\n\n\nAkses melalui menu \nPengaturan\n \n \nDaftar Satuan\n\n\nKlik tombol \nInput Satuan Baru\n\n\nIsi \nNama\n Satuan\n\n\nKlik tombol \nBuat Satuan\n\n\n\n\nTambah Satuan\n\n\n\n\nAkses melalui menu \nPengaturan\n \n \nDaftar Satuan\n\n\nPilih satuan yang akan diedit, klik tombol \nEdit\n\n\nIsi/ganti \nNama\n Satuan\n\n\nKlik tombol \nUpdate Satuan\n\n\n\n\nBackup Database Sistem\n\n\nUntuk mengatur Backup Database pada sistem\n\n\nDaftar File Backup\n\n\nDiakses dengan menu \nPengaturan\n \n \nBackup Database Sistem\n\n\n\n\nMembuat Backup Baru\n\n\nIni adalah fitur yang berfungsi untuk menyimpan seluruh data pada sistem menjadi sebuah \nFile Backup\n ber-extensi \n.gz\n.\n\n\n\n\nPada halaman Daftar File Backup, isikan \nNama File\n backup yang diinginkan\n\n\nKlik tombol \nBuat Backup Database\n\n\nTunggu proses backup selesai\n\n\n\n\nFile Backup yang baru akan muncul pada table \nDaftar File Backup\n\n\n\n\n\n\nCatatan:\n\n\nSebaiknya dilakukan backup setiap hari atau minimal satu minggu sekali\n\n\n\n\n\n\n\n\nRestore Backup\n\n\nIni adalah fitur yang berfungsi untuk mengembalikan seluruh data pada sistem ke data yang tersimpan pada file yang di-\nRestore\n.\n\n\n\n\nPENTING:\n\n\nPastikan telah dilakukan backup dulu sebelum melakukan \nRestore Backup\n\n\n\n\n\n\nPada \nDaftar File Backup\n, pilih \nFile Backup\n yang akan digunakan untuk Restore Database\n\n\nKlik tombol \nRestore\n, masuk halaman konfirmasi Restore,\n\n\nKlik tombol \nBatal\n untuk kembali ke halaman Daftar File Backup\n\n\nKlik tombol \nRestore Database\n\n\nTunggu proses pengembalian data, seluruh data akan dikembalikan sesuai data yang tersimpan pada file tersebut\n\n\n\n\nDownload File Backup\n\n\nBerfungsi untuk mendownload/unduh file yang telah di backup ke dalam harddisk\n\n\n\n\nPada \nDaftar File Backup\n, pilih \nFile Backup\n yang akan di download, klik tombol \nDownload\n\n\nSimpan \nFile Backup\n ke lokasi yang diinginkan di dalam hard disk\n\n\n\n\nUpload File Backup\n\n\nBerfungsi untuk mengupload file yang tersimpan pada harddisk ke dalam sistem (masuk tabel Daftar File Backup)\n\n\n\n\nPada kolom \nPilih File Backup\n, klik \nChoose File\n\n\nCari dan pilih \nFile Backup\n yang akan di-upload\n\n\nKlik tombol \nUpload File Backup\n\n\nTunggu proses selesai\n\n\nFile yang di-upload akan masuk \nDaftar File Backup\n\n\n\n\nHapus File Backup\n\n\nBerfungsi untuk menghapus \nFile Backup\n yang tersimpan di dalam sistem\n\n\n\n\nPada \nDaftar File Backup\n, pilih \nFile Backup\n yang akan di download, klik tombol \nx\n\n\n\n\nPengaturan Aplikasi\n\n\nAdalah pengaturan sistem untuk: Nama Apotek, Alamat, Telp. Apotek yang akan tampil pada Nota/Faktur yang dicetak.", 
+            "title": "Pengaturan"
+        }, 
+        {
+            "location": "/admin/options/#pengaturan", 
+            "text": "", 
+            "title": "Pengaturan"
+        }, 
+        {
+            "location": "/admin/options/#daftar-user", 
+            "text": "Untuk mengatur User/Pengguna yang menggunakan aplikasi.  Buka Daftar User melalui menu  Pengaturan     Daftar User   Tipe User/Grup terbagi dua:   Admin  untuk melakukan aktifitas:  Input Transaksi  Mencari dan cetak Nota Transaksi  Manajemen Data Produk, Stok Produk dan Satuan Produk  Mutasi Stok Produk  Cetak Daftar Harga Produk  Melihat laporan penjualan (Modal, Omzet dan Laba)  Mengatur User/Pengguna yang menggunakan aplikasi  Manajemen Backup Database Sistem    Kasir  untuk melakukan aktifitas:  Input Transaksi  Mencari dan cetak Nota Transaksi  Mutasi Stok Produk", 
+            "title": "Daftar User"
+        }, 
+        {
+            "location": "/admin/options/#input-user", 
+            "text": "Pada halaman Daftar User, klik tombol  Input User  Isikan  Nama ,  Username , Pilih  Grup , Isikan  Password  dan  Ulangi Password  Klik tombol  Buat User", 
+            "title": "Input User"
+        }, 
+        {
+            "location": "/admin/options/#edit-user", 
+            "text": "Pada halaman Daftar User, pilih User yang akan diedit, klik tombol  Edit  Ubah  Nama ,  Username ,  Grup , atau  Password  sesuai kebutuhan  Klik tombol  Update User  untuk menyimpan perubahan", 
+            "title": "Edit User"
+        }, 
+        {
+            "location": "/admin/options/#hapus-user", 
+            "text": "Pada halaman Daftar User, pilih User yang akan diedit, klik tombol  Edit  Klik tombol  Hapus User ini  Klik OK untuk menghapus User", 
+            "title": "Hapus User"
+        }, 
+        {
+            "location": "/admin/options/#satuan-produk", 
+            "text": "Adalah pengaturan untuk satuan-satuan produk yang digunakan dalam sistem", 
+            "title": "Satuan Produk"
+        }, 
+        {
+            "location": "/admin/options/#daftar-satuan", 
+            "text": "Akses melalui menu  Pengaturan     Daftar Satuan", 
+            "title": "Daftar Satuan"
+        }, 
+        {
+            "location": "/admin/options/#tambah-satuan", 
+            "text": "Akses melalui menu  Pengaturan     Daftar Satuan  Klik tombol  Input Satuan Baru  Isi  Nama  Satuan  Klik tombol  Buat Satuan", 
+            "title": "Tambah Satuan"
+        }, 
+        {
+            "location": "/admin/options/#tambah-satuan_1", 
+            "text": "Akses melalui menu  Pengaturan     Daftar Satuan  Pilih satuan yang akan diedit, klik tombol  Edit  Isi/ganti  Nama  Satuan  Klik tombol  Update Satuan", 
+            "title": "Tambah Satuan"
+        }, 
+        {
+            "location": "/admin/options/#backup-database-sistem", 
+            "text": "Untuk mengatur Backup Database pada sistem", 
+            "title": "Backup Database Sistem"
+        }, 
+        {
+            "location": "/admin/options/#daftar-file-backup", 
+            "text": "Diakses dengan menu  Pengaturan     Backup Database Sistem", 
+            "title": "Daftar File Backup"
+        }, 
+        {
+            "location": "/admin/options/#membuat-backup-baru", 
+            "text": "Ini adalah fitur yang berfungsi untuk menyimpan seluruh data pada sistem menjadi sebuah  File Backup  ber-extensi  .gz .   Pada halaman Daftar File Backup, isikan  Nama File  backup yang diinginkan  Klik tombol  Buat Backup Database  Tunggu proses backup selesai   File Backup yang baru akan muncul pada table  Daftar File Backup    Catatan:  Sebaiknya dilakukan backup setiap hari atau minimal satu minggu sekali", 
+            "title": "Membuat Backup Baru"
+        }, 
+        {
+            "location": "/admin/options/#restore-backup", 
+            "text": "Ini adalah fitur yang berfungsi untuk mengembalikan seluruh data pada sistem ke data yang tersimpan pada file yang di- Restore .   PENTING:  Pastikan telah dilakukan backup dulu sebelum melakukan  Restore Backup    Pada  Daftar File Backup , pilih  File Backup  yang akan digunakan untuk Restore Database  Klik tombol  Restore , masuk halaman konfirmasi Restore,  Klik tombol  Batal  untuk kembali ke halaman Daftar File Backup  Klik tombol  Restore Database  Tunggu proses pengembalian data, seluruh data akan dikembalikan sesuai data yang tersimpan pada file tersebut", 
+            "title": "Restore Backup"
+        }, 
+        {
+            "location": "/admin/options/#download-file-backup", 
+            "text": "Berfungsi untuk mendownload/unduh file yang telah di backup ke dalam harddisk   Pada  Daftar File Backup , pilih  File Backup  yang akan di download, klik tombol  Download  Simpan  File Backup  ke lokasi yang diinginkan di dalam hard disk", 
+            "title": "Download File Backup"
+        }, 
+        {
+            "location": "/admin/options/#upload-file-backup", 
+            "text": "Berfungsi untuk mengupload file yang tersimpan pada harddisk ke dalam sistem (masuk tabel Daftar File Backup)   Pada kolom  Pilih File Backup , klik  Choose File  Cari dan pilih  File Backup  yang akan di-upload  Klik tombol  Upload File Backup  Tunggu proses selesai  File yang di-upload akan masuk  Daftar File Backup", 
+            "title": "Upload File Backup"
+        }, 
+        {
+            "location": "/admin/options/#hapus-file-backup", 
+            "text": "Berfungsi untuk menghapus  File Backup  yang tersimpan di dalam sistem   Pada  Daftar File Backup , pilih  File Backup  yang akan di download, klik tombol  x", 
+            "title": "Hapus File Backup"
+        }, 
+        {
+            "location": "/admin/options/#pengaturan-aplikasi", 
+            "text": "Adalah pengaturan sistem untuk: Nama Apotek, Alamat, Telp. Apotek yang akan tampil pada Nota/Faktur yang dicetak.", 
+            "title": "Pengaturan Aplikasi"
+        }
+    ]
+}

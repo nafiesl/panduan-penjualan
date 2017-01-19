@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Panduan Kasir - Panduan Aplikasi Toko Obat</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">Panduan Aplikasi Toko Obat</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Panduan Kasir</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Panduan Admin <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../admin/transactions/">Transaksi</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../admin/products/">Manajemen Produk</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../admin/reports/">Laporan</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../admin/options/">Pengaturan</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#panduan-kasir">Panduan Kasir</a></li>
+        
+            <li><a href="#membuatinput-transaksi">Membuat/Input Transaksi</a></li>
+        
+            <li><a href="#keranjang">Keranjang</a></li>
+        
+            <li><a href="#detail-transaksi">Detail Transaksi</a></li>
+        
+            <li><a href="#draft-transaksi">Draft Transaksi</a></li>
+        
+            <li><a href="#daftar-transaksi-hari-ini">Daftar Transaksi Hari Ini</a></li>
+        
+            <li><a href="#mencari-notafaktur">Mencari Nota/Faktur</a></li>
+        
+            <li><a href="#mutasi-stok">Mutasi Stok</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="panduan-kasir">Panduan Kasir</h1>
+<p><strong>Kasir</strong> adalah tipe pengguna/user yang dapat melakukan aktifitas berikut:</p>
+<ol>
+<li><a href="#membuat-input-transaksi">Membuat/Input Transaksi</a></li>
+<li><a href="#keranjang">Keranjang</a></li>
+<li><a href="#detail-transaksi">Melihat Detail Transaksi</a></li>
+<li><a href="#detail-transaksi">Mencetak Nota/Faktur</a></li>
+<li><a href="#daftar-transaksi-hari-ini">Melihat Daftar Transaksi Hari ini</a></li>
+<li><a href="#mencari-notafaktur">Mencari Nota/Faktur</a></li>
+<li><a href="#mutasi-stok">Mutasi Stok</a></li>
+</ol>
+<h2 id="membuatinput-transaksi">Membuat/Input Transaksi</h2>
+<p>Yaitu melakukan input transaksi penjualan produk kepada customer dan menyimpan transaksi sebagai draft (simpan sementara).</p>
+<p><img alt="Halaman Input Transaksi" src="../img/transactions/input-transaksi-1.jpg" /></p>
+<h3 id="mencari-dan-input-produk-ke-keranjang">Mencari dan Input Produk ke Keranjang</h3>
+<p><img alt="Mencari Produk" src="../img/transactions/cari-produk-1.png" /></p>
+<ol>
+<li>Klik pada menu <strong>Input Transaksi</strong></li>
+<li>Pada Kolom <strong>Cari Produk</strong>, Ketik nama Produk minimal 3 huruf, muncul daftar produk</li>
+<li>Pilih produk sesuai satuannya, isikan <strong>Jumlah</strong> yang akan dimasukkan ke <strong>Keranjang</strong> (Catatan: Perhatikan Stok Produk yang bersangkutan)</li>
+<li>Klik tombol <strong>Tambah</strong></li>
+<li>Produk tersebut akan masuk ke <strong>Keranjang</strong></li>
+<li>Ulangi langkah ke 2 s/d ke 4 untuk menambahkan produk lainnya</li>
+<li>Klik tombol <strong>Refresh</strong> untuk menghilangkan hasil pencarian</li>
+</ol>
+<h2 id="keranjang">Keranjang</h2>
+<p><strong>Keranjang</strong> adalah daftar produk yang akan dibeli oleh pelanggan. Pada keranjang, kasir dapat menambahkan item (produk), menghapus produk, menambahkan/mengurangi jumlah, dan memberikan diskon per item.<br />
+<img alt="Tampilan Keranjang Belanja" src="../img/transactions/operasi-keranjang-1.png" /></p>
+<h3 id="menggunakan-keranjang">Menggunakan keranjang</h3>
+<ol>
+<li><strong>No. Faktur</strong> adalah Nomor Transaksi yang akan dibuat, dengan format tahun-bulan-no.urut (yymmxxxx)</li>
+<li><strong>Tanggal</strong> adalah tanggal hari ini yang merupakan tanggal transaksi diinput</li>
+<li>Ubah kolom <strong>Jumlah</strong> pada kolom yang diinginkan, lalu tekan <strong>Enter</strong>, <strong>Subtotal</strong> item otomatis akan berubah (Harga Satuan x Jumlah)</li>
+<li>Isikan <strong>Diskon per Item</strong> (jika ada), lalu tekan <strong>Enter</strong>, diskon akan terakumulasi secara otomatis pada kolom <strong>Total Diskon</strong> (diskon per item x jumlah)</li>
+<li>Kolom <strong>Hapus</strong> untuk menghapus item yang batal/tidak jadi. Klik tanda silang <strong>(x)</strong> pada kolom Hapus -&gt; <strong>OK</strong>, maka item akan terhapus dari keranjang.</li>
+<li>Tombol <strong>Update Harga</strong> digunakan untuk mengupdate harga yang ada pada keranjang (jika admin telah mengubah harga produk tersebut)</li>
+<li><strong>Total</strong> ada adalah jumlah total belanja pelanggan sebelum dipotong Diskon</li>
+<li><strong>Total yang harus dibayar</strong> adalah jumlah total belanja pelanggan setelah dipotong diskon</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Catatan</p>
+<ul>
+<li>Baris item pada keranjang akan <span class="text-danger"><strong>berwarna merah</strong></span> jika ada masalah <strong>Stok</strong> produk</li>
+<li>Jika masih ada baris item yang berwarna merah, transaksi tidak dapat dilanjutkan/disimpan</li>
+</ul>
+</div>
+<h3 id="melanjutkan-proses-transaksi">Melanjutkan Proses Transaksi</h3>
+<p>Jika sudah selesai mengisi keranjang sesuai pesanan Pelanggan<br />
+<img alt="Data Transaksi" src="../img/transactions/data-transaksi-1.png" /></p>
+<ol>
+<li>Isikan <strong>Nama Pelanggan</strong>, <strong>No. Telp</strong>, dan <strong>Jumlah Bayar</strong></li>
+<li><strong>Jumlah Bayar</strong> diisi :<ul>
+<li>Minimal sejumlah <strong>Total yang harus dibayar</strong></li>
+<li>Maksimal sejumlah <strong>Total yang harus dibayar + 100.000</strong></li>
+</ul>
+</li>
+<li>Isikan <strong>Catatan</strong> transaksi jika diperlukan</li>
+<li>Klik <strong>Lanjutkan</strong></li>
+<li>Pada halaman <strong>Konfirmasi Transaksi</strong>, periksa kembali daftar produk, satuan, harga, jumlah item, nama/telp Pelanggan</li>
+<li>Klik tombol <strong>Kembali</strong> jika ingin ada perbaikan pada Keranjang atau Data Transaksi</li>
+<li>Klik tombol <strong>OK, Simpan Transaksi</strong> untuk menyimpan transaksi<br />
+<img alt="Konfirmasi Transaksi" src="../img/transactions/input-transaksi-2.png" /></li>
+</ol>
+<h2 id="detail-transaksi">Detail Transaksi</h2>
+<p>Halaman informasi detail sebuah transaksi pembelian Pelanggan<br />
+<img alt="Halaman Detail Transaksi" src="../img/transactions/detail-transaksi-1.png" /></p>
+<p>Keterangan Gambar:</p>
+<ol>
+<li>Data Transaksi</li>
+<li>Daftar Belanja</li>
+<li>Tombol <strong>Cetak Nota</strong> untuk mencetak nota atau faktur belanja Pelanggan<br />
+<img alt="Halaman Cetak Nota" src="../img/transactions/cetak-nota-1.png" /></li>
+</ol>
+<h2 id="draft-transaksi">Draft Transaksi</h2>
+<p>Adalah transaksi yang disimpan untuk sementara<br />
+<img alt="Halaman Daftar Draft Transaksi" src="../img/transactions/daftar-draft-transaksi-1.png" /></p>
+<h3 id="menyimpan-transaksi-ke-dalam-draft">Menyimpan Transaksi ke Dalam Draft</h3>
+<ol>
+<li>Input transaksi baru</li>
+<li>Isi keranjang</li>
+<li>Klik tombol <strong>Simpan Draft</strong></li>
+<li>Transaksi akan masuk ke dalam daftar <strong>Draft Transaksi</strong><br />
+<img alt="Tombol Draft Transaksi" src="../img/transactions/tombol-draft-transaksi-1.png" /></li>
+</ol>
+<h3 id="edit-draft-transaksi">Edit Draft Transaksi</h3>
+<ol>
+<li>Diakses melalui <strong>Transaksi</strong> &gt; <strong>Draft Transaksi</strong></li>
+<li>Muncul daftar transaksi yang telah disimpan sebagai draft</li>
+<li>Klik tombol <strong>Edit</strong> untuk melanjutkan transaksi yang tersimpan</li>
+<li>Tombol <strong>Edit</strong> akan muncul sesuai dengan pemilik transaksi (User yang membuatnya)</li>
+<li>Lakukan pencarian Produk, pengisian Keranjang, Nama Pelanggan, Telp, dan Jumlah Bayar</li>
+<li>Tekan tombol <strong>Update Draft</strong> untuk menyimpan (masih sebagai draft)</li>
+<li>Tekan tombol <strong>Lanjutkan</strong> jika ingin melanjutkan dan menyelesaikan transaksi</li>
+<li>Tekan tombol <strong>Hapus Draft</strong> untuk membatalkan draft transaksi<br />
+<img alt="Update Draft Transaksi" src="../img/transactions/hapus-draft-transaksi-1.png" /></li>
+</ol>
+<h2 id="daftar-transaksi-hari-ini">Daftar Transaksi Hari Ini</h2>
+<p>Adalah menu/halaman untuk melihat daftar transaksi/nota yang dibuat pada hari ini.<br />
+<img alt="Daftar Transaksi Hari Ini" src="../img/transactions/daftar-transaksi-hari-ini-1.png" /></p>
+<h3 id="mencari-daftar-transaksi-hari-ini">Mencari Daftar Transaksi Hari Ini</h3>
+<ol>
+<li>Klik menu <strong>Transaksi</strong> &gt; <strong>Transaksi Hari Ini</strong></li>
+<li>Ketik bagian dari <strong>Nomor Nota/Faktur</strong> atau bagian dari <strong>Nama Pelanggan</strong>, tekan <strong>Enter</strong></li>
+<li>Klik <strong>Detail</strong> pada transaksi yang diinginkan, maka akan terlihat detail/rincian transaksinya</li>
+<li><strong>Cetak Nota</strong> apabila ingin mencetak nota</li>
+</ol>
+<h2 id="mencari-notafaktur">Mencari Nota/Faktur</h2>
+<p>Mencari nota sesuai nomor faktur yang telah dibuat untuk melihat detail transaksi dan mencetak ulang nota.</p>
+<ol>
+<li>Klik menu <strong>Cari Nota</strong></li>
+<li>Isi nomor faktur atau nama pelanggan untuk mencari nota, klik <strong>Cari</strong></li>
+<li>Klik <strong>Detail</strong> untuk melihat rincian/detail nota</li>
+<li>Klik <strong>Cetak Nota</strong> untuk mencetak nota<br />
+<img alt="Hasil Pencarian Nota/Faktur" src="../img/transactions/cari-nota-1.png" /></li>
+</ol>
+<h2 id="mutasi-stok">Mutasi Stok</h2>
+<p>Yaitu untuk melakukan pemindahan stok dari satuan besar ke satuan kecil.<br />
+Misalnya:</p>
+<ul>
+<li>Produk memiliki satuan <strong>Dus</strong> dan <strong>Botol</strong></li>
+<li>Satu Dus = 10 Botol</li>
+<li>Di dalam stok ada <strong>7 Dus</strong> dan <strong>1 Botol</strong></li>
+<li>Kemudian 1 Dus akan dibuka menjadi 10 Botol</li>
+<li>Stok berubah menjadi: <strong>6 Dus</strong> dan <strong>11 Botol</strong></li>
+</ul>
+<h3 id="cara-memutasi-stok">Cara Memutasi Stok</h3>
+<p><img alt="Cari Produk untuk Mutasi" src="../img/mutations/cari-produk-mutasi-1.png" /></p>
+<ol>
+<li>Buka Menu <strong>Mutasi Stok</strong></li>
+<li>Ketik nama produk yang ingin dimutasi, klik <strong>Cari</strong></li>
+<li>Pada kolom <strong>Stok</strong> akan terlihat jumlah Stok setiap Satuan</li>
+<li>Klik tombol <strong>Buat Mutasi</strong> pada produk yang akan dimutasikan<br />
+<img alt="Buat Mutasi" src="../img/mutations/buat-mutasi-1.png" /></li>
+<li>Isi kolom <strong>Mutasi Produk</strong> beserta jumlah mutasinya</li>
+<li>Klik <strong>Mutasikan</strong> dan jumlah Stok Satuan akan berubah setelah dimutasi<br />
+<img alt="Mutasi Berhasil" src="../img/mutations/buat-mutasi-2.png" /></li>
+</ol></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <p>by nafies</p>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../js/easing.min.js"></script>
+        <script src="../js/extra.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
