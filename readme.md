@@ -1,5 +1,7 @@
 # Panduan Aplikasi Kasir (Penjualan)
 
+https://nafiesl.github.io/panduan-penjualan
+
 Repositori ini adalah dokumentasi/panduan Aplikasi Kasir yang dibuat dengan [mkdocs](http://www.mkdocs.org).
 
 Branch `master` adalah source dokumentasi dengan format markdown dan branch `gh-pages` adalah source static html yang didapatkan setelah eksekusi perintah `mkdocs gh-deploy`
